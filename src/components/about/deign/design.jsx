@@ -1,5 +1,5 @@
 // src/Login.jsx
-/* function card({heading, des, buttonName}) {
+ function card({heading, des, buttonName}) {
   return (
     <div>
       <p className="text-sm text-red-800 ">{heading}</p>
@@ -10,4 +10,3 @@
 }
 
 export default card;
- */
