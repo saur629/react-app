@@ -7,7 +7,7 @@ export default function Website() {
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8 }}
-      className="bg-gray-900 text-white px-6 py-4 flex justify-between items-center shadow-lg"
+      className="bg-red-900 text-white px-6 py-4 flex justify-between items-center shadow-lg"
     >
       {/* Logo with bounce */}
       <motion.h1
@@ -24,6 +24,7 @@ export default function Website() {
           { to: "/", text: "Home" },
           { to: "/about", text: "About" },
           { to: "/contact", text: "Contact" },
+          { to: "/limitedcounter", text: "LimitedCounter"},
         ].map((link, i) => (
           <motion.div
             key={i}
@@ -49,7 +50,7 @@ export default function Website() {
         >
           <Link
             to="/login"
-            className="bg-red-700 px-4 py-2 rounded hover:bg-red-600"
+            className="bg-orange-500 px-4 py-2 rounded hover:bg-red-600"
           >
             Login
           </Link>
